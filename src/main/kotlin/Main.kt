@@ -1,5 +1,9 @@
 fun main() {
+    greeting()
+}
+
+fun greeting() {
     println("Enter your city…")
-    val CITY = readLine()
-    println("User lives in $CITY")
+    val city = readLine()
+    println("User lives in $city")
 }
