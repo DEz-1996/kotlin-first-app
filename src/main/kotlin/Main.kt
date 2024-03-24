@@ -1,7 +1,9 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+fun main() {
+    greeting()
+}
 
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
+fun greeting() {
+    println("Enter your city…")
+    val city = readLine()
+    println("User lives in $city")
 }
